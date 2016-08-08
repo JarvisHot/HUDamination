@@ -21,6 +21,7 @@
 		D86523B71D3E2DA90018F4E2 /* dropdown_anim__0001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86523B41D3E2DA90018F4E2 /* dropdown_anim__0001@2x.png */; };
 		D86523B81D3E2DA90018F4E2 /* dropdown_anim__0002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86523B51D3E2DA90018F4E2 /* dropdown_anim__0002@2x.png */; };
 		D86523B91D3E2DA90018F4E2 /* dropdown_anim__0003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D86523B61D3E2DA90018F4E2 /* dropdown_anim__0003@2x.png */; };
+		D8DB409B1D54B63F00315A30 /* temp.mov in Resources */ = {isa = PBXBuildFile; fileRef = D8DB409A1D54B63F00315A30 /* temp.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		D86523B41D3E2DA90018F4E2 /* dropdown_anim__0001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0001@2x.png"; sourceTree = "<group>"; };
 		D86523B51D3E2DA90018F4E2 /* dropdown_anim__0002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0002@2x.png"; sourceTree = "<group>"; };
 		D86523B61D3E2DA90018F4E2 /* dropdown_anim__0003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0003@2x.png"; sourceTree = "<group>"; };
+		D8DB409A1D54B63F00315A30 /* temp.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = temp.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				D86523B41D3E2DA90018F4E2 /* dropdown_anim__0001@2x.png */,
 				D86523B51D3E2DA90018F4E2 /* dropdown_anim__0002@2x.png */,
 				D86523B61D3E2DA90018F4E2 /* dropdown_anim__0003@2x.png */,
+				D8DB409A1D54B63F00315A30 /* temp.mov */,
 				D86523AE1D3DD2FC0018F4E2 /* 1.jpg */,
 				D86523AF1D3DD2FC0018F4E2 /* 2.jpg */,
 				D86523B01D3DD2FC0018F4E2 /* 3.jpg */,
@@ -168,6 +171,7 @@
 				D86523AD1D3DD18F0018F4E2 /* haha.gif in Resources */,
 				D86523931D3DCC160018F4E2 /* Main.storyboard in Resources */,
 				D86523B31D3DD2FC0018F4E2 /* 3.jpg in Resources */,
+				D8DB409B1D54B63F00315A30 /* temp.mov in Resources */,
 				D86523B11D3DD2FC0018F4E2 /* 1.jpg in Resources */,
 				D86523B81D3E2DA90018F4E2 /* dropdown_anim__0002@2x.png in Resources */,
 				D86523B71D3E2DA90018F4E2 /* dropdown_anim__0001@2x.png in Resources */,

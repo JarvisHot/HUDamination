@@ -8,8 +8,15 @@
 
 #import "ViewController.h"
 #import "MBProgressHUD.h"
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController ()
-
+{
+    AVPlayerViewController*_playerVC;
+    AVPlayer*_player;
+    AVAudioSession*_session;
+    
+}
 @end
 
 @implementation ViewController
@@ -39,7 +46,32 @@
 //    hud.label.backgroundColor=[UIColor clearColor];
     hud.customView=imageView;
     hud.label.text=@"heheda";
+    [hud hideAnimated:YES afterDelay:2];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self initPlayer];
+    });
+//    [NSNotificationCenter defaultCenter]addObserver:self selector:@selector(playerControllerDone) name:<#(nullable NSString *)#> object:<#(nullable id)#>
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)btnCLick:(id)sender {
+    
+    [self initPlayer];
+}
+
+-(void)initPlayer
+{
+//    _session=[AVAudioSession sharedInstance];
+//    [_session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    NSString*path=[[NSBundle mainBundle]pathForResource:@"temp" ofType:@".mov"];
+    NSURL*url=[NSURL fileURLWithPath:path];
+    _player=[AVPlayer playerWithURL:url];
+    _playerVC=[[AVPlayerViewController alloc]init];
+    _playerVC.player=_player;
+    _playerVC.videoGravity=AVLayerVideoGravityResizeAspect;
+    _playerVC.showsPlaybackControls = true;
+    [self presentViewController:_playerVC animated:YES completion:nil];
+
 }
 
 - (void)didReceiveMemoryWarning {
