@@ -1,6 +1,7 @@
 # HUDamination
 HUD 自定义动画
-<pre><code>  MBProgressHUD*hud=[MBProgressHUD showHUDAddedTo:self.view animated:YES];
+```javascript
+MBProgressHUD*hud=[MBProgressHUD showHUDAddedTo:self.view animated:YES];
 hud.mode=MBProgressHUDModeCustomView;
 UIImageView *imageView = [[UIImageView alloc] init];
 
@@ -24,5 +25,5 @@ imageView.animationRepeatCount = 0;
 hud.customView=imageView;
 hud.label.text=@"heheda";
 
-</code></pre>
+```
 
