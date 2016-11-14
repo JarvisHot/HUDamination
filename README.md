@@ -1,5 +1,6 @@
 # HUDamination
-HUD 自定义动画
+>HUD 自定义动画
+
 ```javascript
 MBProgressHUD*hud=[MBProgressHUD showHUDAddedTo:self.view animated:YES];
 hud.mode=MBProgressHUDModeCustomView;
